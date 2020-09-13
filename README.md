@@ -6,10 +6,11 @@ This repository contains:
 
 - Topology files associated with the structures described above
 
-For more information see:
+
+*For more information see:*
 
 Franco-Ulloa, S. et al. 
 
 Dispersion state phase diagram of citrate-coated metallic nanoparticles in saline solutions.
 
-Nature Communications
+_Nature Communications_
