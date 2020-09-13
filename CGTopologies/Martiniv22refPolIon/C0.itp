@@ -1,0 +1,41 @@
+  C0   72.0 0.000 A 0.0 0.0
+  C0    C0      1   0.15091E-00     0.16267E-02 ; intermediate 
+  C0    C1      1   0.15091E-00     0.16267E-02 ; intermediate 
+  P5    C0      1   0.86233E-01     0.92953E-03 ; repulsive 
+  SP5   C0      1   0.86233E-01     0.92953E-03 ; repulsive 
+  P4    C0      1   0.86233E-01     0.92953E-03 ; repulsive 
+  SP4   C0      1   0.86233E-01     0.92953E-03 ; repulsive 
+  P3    C0      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  SP3   C0      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  P2    C0      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  SP2   C0      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  P1    C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  SP1   C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  Nda   C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  SNda  C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  Nd    C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  SNd   C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  Na    C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  SNa   C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  N0    C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  SN0   C0      1   0.11642E-00     0.12549E-02 ; semi repulsive
+  C5    C0      1   0.13366E-00     0.14408E-02 ; almost intermediate 
+  SC5   C0      1   0.13366E-00     0.14408E-02 ; almost intermediate 
+  C4    C0      1   0.13366E-00     0.14408E-02 ; almost intermediate 
+  SC4   C0      1   0.13366E-00     0.14408E-02 ; almost intermediate 
+  C3    C0      1   0.15091E-00     0.16267E-02 ; intermediate 
+  SC3   C0      1   0.15091E-00     0.16267E-02 ; intermediate 
+  C2    C0      1   0.15091E-00     0.16267E-02 ; intermediate 
+  SC2   C0      1   0.15091E-00     0.16267E-02 ; intermediate 
+  C0    SC1     1   0.15091E-00     0.16267E-02 ; intermediate 
+  C0    Qda     1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    SQda    1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    Qd      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    SQd     1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    Qa      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    SQa     1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    Q0      1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  C0    SQ0     1   0.99167E-01     0.10690E-02 ; almost repulsive 
+  POL   C0      1   5.17398E-02     5.57718E-04 ; VIII repulsive 60%
+  PQa   C0      1   6.89864E-02     7.43624E-04 ; VIII repulsive 80%
+  PQd   C0      1   6.89864E-02     7.43624E-04 ; VIII repulsive 80%
