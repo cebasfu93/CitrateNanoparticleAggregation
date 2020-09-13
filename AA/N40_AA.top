@@ -1,0 +1,42 @@
+; POPC_GMX.top created by acpype (Rev: 401) on Fri Jan 26 15:56:31 2018
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+;Gold core
+ Au       Au          196.967 0.00000   A     2.62904e-01   2.21334e+01 ; 1.48  5.2900
+;Citrate
+ c        c           0.00000  0.00000   A     3.39967e-01   3.59824e-01 ; 1.91  0.0860
+ c3       c3          0.00000  0.00000   A     3.39967e-01   4.57730e-01 ; 1.91  0.1094
+ o        o           0.00000  0.00000   A     2.95992e-01   8.78640e-01 ; 1.66  0.2100
+ oh       oh          0.00000  0.00000   A     3.06647e-01   8.80314e-01 ; 1.72  0.2104
+ hc       hc          0.00000  0.00000   A     2.64953e-01   6.56888e-02 ; 1.49  0.0157
+ ho       ho          0.00000  0.00000   A     0.00000e+00   0.00000e+00 ; 0.00  0.0000
+;water
+ OW       OW         16.00000 -0.8476    A     3.15061e-01   6.36272e-01
+ HW       HW          1.00000  0.4238    A     0.00000e-01   0.00000e-01
+;ions
+ NA       NA         23.00000  1.0000    A     3.32840e-01   1.15897e-02
+ CL       CL         35.45300 -1.0000    A     4.40104e-01   4.18400e-01
+
+#include "./inputs/Au.itp"
+#include "./inputs/Au_restr.itp"
+
+#include "./inputs/CIT.itp"
+#include "./inputs/CIT_restr.itp"
+
+#include "./inputs/tip3p.itp"
+#include "./inputs/ions.itp"
+
+[ system ]
+AuNP coated with 20 citrate molecules in water
+
+[ molecules ]
+; Compound        nmols
+Au		 459
+CIT		20
+SOL         15661
+NA               40
