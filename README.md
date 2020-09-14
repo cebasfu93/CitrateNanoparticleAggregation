@@ -1,6 +1,3 @@
-[![DOI](https://zenodo.org/badge/295187171.svg)](https://zenodo.org/badge/latestdoi/295187171)
-
-
 This repository contains:
 
 - Python scripts for analyzing MD trajectories
