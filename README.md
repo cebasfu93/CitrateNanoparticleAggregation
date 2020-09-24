@@ -1,11 +1,12 @@
 This repository contains:
 
-- Python scripts for analyzing MD trajectories
-
 - Coarse-grained initial structures of charges, hydrophobic nanoparticles
 
 - Topology files associated with the structures described above
 
+- Python scripts for analyzing MD trajectories
+
+- Python scripts for processing and plotting the extracted (analyzed) data
 
 *For more information see:*
 
